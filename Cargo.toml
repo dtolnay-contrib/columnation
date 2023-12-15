@@ -1,10 +1,15 @@
 [package]
-name = "columnation"
-version = "0.1.0"
+name = "columnation-master"
+version = "0.1.0-dev.1"
 authors = ["Frank McSherry <fmcsherry@me.com>"]
+description = "An experimental columnar arena"
+documentation = "https://docs.rs/columnation-master"
 edition = "2018"
+license = "MIT"
+repository = "https://github.com/frankmcsherry/columnation"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "columnation"
 
 [dependencies]
 paste = "1.0.6"
